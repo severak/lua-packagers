@@ -10,8 +10,20 @@
 * Open resty package manager (https://opm.openresty.org/)
 * ActiveLua own's (any info available?)
 
+## Comparasion criterias
+
+* based on *what*?
+* changes to `package.path`?
+* can into binary modules?
+* needs compiler?
+* package description syntax
+* packages (can be) hosted at *what*?
+* luarocks compatibilty?
+* is it one man show?
+
 ## Build systems
 
+* [heroku buildpack](http://leafo.net/posts/lua_on_heroku.html)
 * luawinmulti (https://github.com/Tieske/luawinmulti)
 * luastatic (https://github.com/ers35/luastatic)
 * Omnia (https://github.com/tongson/omnia)
