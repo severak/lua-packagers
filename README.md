@@ -1,10 +1,37 @@
 # lua package managers comparasion
 
-## Packagers
+## LuaRocks
 
-* LuaRocks (https://luarocks.org/)
-* LuaDist (http://luadist.org/)
-* LuaDist2 (https://github.com/LuaDist2/)
+* living at [luarocks.org](https://luarocks.org/)
+* oldest lua package manager
+* needs change the `package.path`? [no](https://github.com/luarocks/luarocks/wiki/File-locations#paths-to-rocks-trees)
+* can distribute binaries? [yes](https://github.com/luarocks/luarocks/wiki/Rock-file-format)
+* needs compiler? Usually, there are not many modules with binaries provided.
+* package description syntax: [rockspec](https://github.com/luarocks/luarocks/wiki/Rockspec-format) (lua-based)
+* packages hosted at: custom website ([luarocks.org](https://luarocks.org/))
+
+## LuaDist
+
+* living at [luadist.org](http://luadist.org/)
+* based on CMake, Git
+* needs change the `package.path`? N/A
+* can distribute binaries? [yes](https://github.com/LuaDist/Repository/wiki/LuaDist%3A-Package-Structure)
+* needs compiler? Sometimes, for common platforms there are binaries provided usually.
+* package description syntax: [dist.info](https://github.com/LuaDist/Repository/wiki/LuaDist:-Package-Structure#the-distinfo-file) (lua-based)
+* packages hosted at: [github repository](https://github.com/LuaDist/Repository)
+
+## LuaDist2
+
+* new version of LuaDist, currently in development
+* living at [github.com/LuaDist2](https://github.com/LuaDist2)
+* needs change the `package.path`? N/A
+* can distribute binaries? probably not
+* needs compiler? Yes
+* package description syntax: LuaRock's [rockspec](https://github.com/luarocks/luarocks/wiki/Rockspec-format) (lua-based)
+* packages hosted at: [github repository](https://github.com/LuaDist2/manifest)
+
+---
+
 * ULua (http://ulua.io/)
 * luapower (https://luapower.com/)
 * Open resty package manager (https://opm.openresty.org/)
