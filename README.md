@@ -35,6 +35,7 @@
 * ULua (http://ulua.io/)
 * luapower (https://luapower.com/)
 * Open resty package manager (https://opm.openresty.org/)
+* [LIT](https://github.com/luvit/lit) - Luvit Invention Toolkit
 * ActiveLua own's (any info available?)
 
 ## Comparasion criterias
